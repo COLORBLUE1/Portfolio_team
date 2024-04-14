@@ -247,6 +247,9 @@ html{
     background-color: #f3f3f3;
 }
 
+.servicios-tag{
+text-align: center;
+}
 #servicios .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
