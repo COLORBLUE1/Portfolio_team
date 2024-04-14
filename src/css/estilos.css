@@ -241,6 +241,14 @@ html{
 }
 
 /* SECCION SERVICIOS */
+
+.scroll-3d{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    scale: 0.5;
+}
+
 #servicios{
     padding: 100px 15px;
     text-align: center;
