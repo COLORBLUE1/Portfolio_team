@@ -324,6 +324,7 @@ margin-bottom: 50px;
 
 /* SECCION HABILIDADES */
 .contenedor-skills{
+    color: white;
     background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("https://i0.wp.com/academy.leewayweb.com/wp-content/uploads/2018/07/cursos-y-consejos-para-aprender-a-programar-desde-cero-gratis-y-online.jpg?fit=996%2C559&ssl=1");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -344,16 +345,20 @@ margin-bottom: 50px;
 }
 
 .contenedor-skills .skill .lista{
+    text-decoration: nnone;
     display: inline-block;
     margin-right: 20px;
     height: 10px;
     width: 10px;
+    border-radius: 60px;
     background-color: #fff;
 }
 
 .contenedor-skills .skill .barra{
+    border-radius: 60px;
     background-color: #919191;
     width: 100%;
+    border-radius: 50px
     height: 6px;
     margin: 10px 0;
 }
@@ -361,12 +366,15 @@ margin-bottom: 50px;
 /* Este estilo se aplicarÃ¡ luego mediante JavaScript para lograr la animaciÃ³n de la barra*/
 .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
+    border-radius: 60px;
     width: 95%;
     height: 6px;
+    border-radius: 60px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2{
+    border-radius: 60px;
     background-color: #fff;
     width: 90%;
     height: 6px;
@@ -374,6 +382,7 @@ margin-bottom: 50px;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3{
+    border-radius: 60px;
     background-color: #fff;
     width: 90%;
     height: 6px;
@@ -381,6 +390,7 @@ margin-bottom: 50px;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4{
+    border-radius: 60px;
     background-color: #fff;
     width: 85%;
     height: 6px;
